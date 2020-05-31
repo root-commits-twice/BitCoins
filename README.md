@@ -17,8 +17,8 @@ ___
 	Speed=2 		#Speed of the miner. Higher is better	
 	Power=2 		#How much power the miner uses
 	Price=2 		#The price of the miner
-	
 	UnlockYear=2012 	#When the miner is available
+	
 	CurrencyCost=USD 	#The currency it costs
 	CurrencyEarned=BTC 	#The currency it mines
 	CurrencyLocked=True 	#If you can change what currency it mines
