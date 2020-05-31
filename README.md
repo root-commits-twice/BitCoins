@@ -10,7 +10,7 @@ If you do modding will stop working
   
 ___
 ```
-<head> 			#Starts the script (Must be first word)
+<head> 				#Starts the script (Must be first word)
 <body>
 	Name=Antpicker X1 	#The name of the product
 	
