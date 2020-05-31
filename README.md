@@ -38,7 +38,7 @@ ___
 
 ___
 
- `<start>` and `<break>` are needed to start and end the mod.
+ `<head>` and `</head>` are needed to start and end the mod.
 
   
 ## How to add currencies: (.txt file needs to be called currencies.txt)  
