@@ -11,23 +11,26 @@ If you do modding will stop working
 ___
 ```
 <0>
-- 	name: "Antminer X1"
-	speed: 2
-	price: 2
-	power: 2
-	unlock-year: 2012
-	currency:
-		cost: "USD"
+- 	Miner
+
+    --- General
+		name: "Antminer S1"
+		speed: 5
+		price: 150
+		power: 10
+		unlock-year: 2013
+    --- Currency:
+		curcost: "USD"
 		earned: "BTC"
-		powercost: "BTC"
-	prefixes:
-		pre-power:
-		pre-speed:
-		pre-price: "$"
-	suffixes:
-		suf-power: "w"
-		suf-speed: "/s"
-		suf-price:
+		costpow: "USD"
+    --- Prefixes:
+		pre-pow:
+		pre-spe:
+		pre-pri: "$"
+    --- Suffixes:
+		suf-pow: "w"
+		suf-spe: "/s"
+		suf-pri:
 <1>
 ```
 
