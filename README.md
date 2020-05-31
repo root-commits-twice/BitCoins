@@ -11,34 +11,30 @@ If you do modding will stop working
 ___
 ```
 <0>
-Miner:
-	Basic:
-		Name=Antpicker X1 	#The name of the product
-		Speed=2 		#Speed of the miner. Higher is better	
-		Power=2 		#How much power the miner uses
-		Price=2 		#The price of the miner
-		UnlockYear=2012 	#When the miner is available
-	Currencies:
-		Cost=USD 		#The currency it costs
-		Earned=BTC 		#The currency it mines
-		PowerCost=BTC		#The power costs currency
-		Locked=True 		#If you can change what currency it mines
-	Prefixes:
-		PrePower= 			#Prefix of power value
-		PreSpeed= 			#Prefix of speed value
-		PrePrice=$ 		#Prefix of price value
-	Suffixes:
-		SufPower=w 		#Postfix of power value
-		SufSpeed=/s 		#Postfix of speed value
-		SufPrice= 			#Postfix of price value
-Miner:
-	etc.
+<0>
+- 	name: "Antminer X1"
+	speed: 2
+	price: 2
+	power: 2
+	unlock-year: 2012
+	currency:
+		cost: "USD"
+		earned: "BTC"
+		powercost: "BTC"
+	prefixes:
+		pre-power:
+		pre-speed:
+		pre-price: "$"
+	suffixes:
+		suf-power: "w"
+		suf-speed: "/s"
+		suf-price:
 <1>
 ```
 
 ___
 
- `<head>` and `</head>` are needed to start and end the mod.
+ `<0>` and `<1>` are needed to start and end the mod.
 
   
 ## How to add currencies: (.txt file needs to be called currencies.txt)  
