@@ -10,7 +10,7 @@ If you do modding will stop working
   
 ___
 ```
-	<start> 		#Starts the script (Must be first word)
+<start> 			#Starts the script (Must be first word)
 <body>
 	Name=Antpicker X1 	#The name of the product
 
@@ -33,7 +33,7 @@ ___
 <body>
 	Name=X 			#Completes the last miner and starts a new one
 <body-end>
-	<break> #Stops the script
+<break> 			#Stops the script
 ```
 
 ___
