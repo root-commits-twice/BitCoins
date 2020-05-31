@@ -19,18 +19,18 @@ Miner:
 		Price=2 		#The price of the miner
 		UnlockYear=2012 	#When the miner is available
 	Currencies:
-		Cost=USD 	#The currency it costs
-		Earned=BTC 	#The currency it mines
-		PowerCost=BTC	#The power costs currency
-		Locked=True 	#If you can change what currency it mines
+		Cost=USD 		#The currency it costs
+		Earned=BTC 		#The currency it mines
+		PowerCost=BTC		#The power costs currency
+		Locked=True 		#If you can change what currency it mines
 	Prefixes:
-		Power= 		#Prefix of power value
-		Speed= 		#Prefix of speed value
-		Price=$ 		#Prefix of price value
+		PrePower= 			#Prefix of power value
+		PreSpeed= 			#Prefix of speed value
+		PrePrice=$ 		#Prefix of price value
 	Suffixes:
-		Power=w 		#Postfix of power value
-		Speed=/s 	#Postfix of speed value
-		Price= 		#Postfix of price value
+		SufPower=w 		#Postfix of power value
+		SufSpeed=/s 		#Postfix of speed value
+		SufPrice= 			#Postfix of price value
 Miner:
 	etc.
 <1>
