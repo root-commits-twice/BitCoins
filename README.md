@@ -31,7 +31,7 @@ ___
 	PostfixPrice= 		#Postfix of price value
 </body>
 <body>
-	Name=X 			#Completes the last miner and starts a new one
+	Name=X 			#The name of the product
 </body>
 </head> 			#Stops the script
 ```
