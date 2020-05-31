@@ -29,10 +29,10 @@ ___
 	PostfixPower=w 		#Postfix of power value
 	PostfixSpeed=/s 	#Postfix of speed value
 	PostfixPrice= 		#Postfix of price value
-<body-end>
+</body>
 <body>
 	Name=X 			#Completes the last miner and starts a new one
-<body-end>
+</body>
 <break> 			#Stops the script
 ```
 
