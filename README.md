@@ -10,20 +10,19 @@ If you do modding will stop working
   
 ___
 ```
-<start> 			#Starts the script (Must be first word)
+<head> 			#Starts the script (Must be first word)
 <body>
-<tag> Naming </tag>
 	Name=Antpicker X1 	#The name of the product
-<tag> Values </tag>
+	
 	Speed=2 		#Speed of the miner. Higher is better	
 	Power=2 		#How much power the miner uses
 	Price=2 		#The price of the miner
+	
 	UnlockYear=2012 	#When the miner is available
-<tag> Currencies </tag>
 	CurrencyCost=USD 	#The currency it costs
 	CurrencyEarned=BTC 	#The currency it mines
 	CurrencyLocked=True 	#If you can change what currency it mines
-<tag> Text pre/postfixes </tag>
+
 	PrefixPower= 		#Prefix of power value
 	PrefixSpeed= 		#Prefix of speed value
 	PrefixPrice=$ 		#Prefix of price value
@@ -34,7 +33,7 @@ ___
 <body>
 	Name=X 			#Completes the last miner and starts a new one
 </body>
-<break> 			#Stops the script
+</head> 			#Stops the script
 ```
 
 ___
