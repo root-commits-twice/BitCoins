@@ -11,7 +11,6 @@ If you do modding will stop working
 ___
 ```
 <0>
-<0>
 - 	name: "Antminer X1"
 	speed: 2
 	price: 2
