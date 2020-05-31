@@ -10,31 +10,30 @@ If you do modding will stop working
   
 ___
 ```
-<head> 				#Starts the script (Must be first word)
-<body>
-	Name=Antpicker X1 	#The name of the product
-	
-	Speed=2 		#Speed of the miner. Higher is better	
-	Power=2 		#How much power the miner uses
-	Price=2 		#The price of the miner
-	UnlockYear=2012 	#When the miner is available
-	
-	CurrencyCost=USD 	#The currency it costs
-	CurrencyEarned=BTC 	#The currency it mines
-	CurrencyPowerCost=BTC	#The power costs currency
-	CurrencyLocked=True 	#If you can change what currency it mines
-
-	PrefixPower= 		#Prefix of power value
-	PrefixSpeed= 		#Prefix of speed value
-	PrefixPrice=$ 		#Prefix of price value
-	PostfixPower=w 		#Postfix of power value
-	PostfixSpeed=/s 	#Postfix of speed value
-	PostfixPrice= 		#Postfix of price value
-</body>
-<body>
-	Name=X 			#The name of the product
-</body>
-</head> 			#Stops the script
+<0>
+Miner:
+	Basic:
+		Name=Antpicker X1 	#The name of the product
+		Speed=2 		#Speed of the miner. Higher is better	
+		Power=2 		#How much power the miner uses
+		Price=2 		#The price of the miner
+		UnlockYear=2012 	#When the miner is available
+	Currencies:
+		Cost=USD 	#The currency it costs
+		Earned=BTC 	#The currency it mines
+		PowerCost=BTC	#The power costs currency
+		Locked=True 	#If you can change what currency it mines
+	Prefixes:
+		Power= 		#Prefix of power value
+		Speed= 		#Prefix of speed value
+		Price=$ 		#Prefix of price value
+	Suffixes:
+		Power=w 		#Postfix of power value
+		Speed=/s 	#Postfix of speed value
+		Price= 		#Postfix of price value
+Miner:
+	etc.
+<1>
 ```
 
 ___
