@@ -21,6 +21,7 @@ ___
 	
 	CurrencyCost=USD 	#The currency it costs
 	CurrencyEarned=BTC 	#The currency it mines
+	CurrencyPowerCost=BTC	#The power costs currency
 	CurrencyLocked=True 	#If you can change what currency it mines
 
 	PrefixPower= 		#Prefix of power value
