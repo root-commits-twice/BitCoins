@@ -41,4 +41,4 @@ ___
  `<start>` and `<break>` are needed to start and end the mod.
 
   
-## How to add miners: (.txt file needs to be called currencies.txt)  
+## How to add currencies: (.txt file needs to be called currencies.txt)  
