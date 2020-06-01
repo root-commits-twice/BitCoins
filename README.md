@@ -1,5 +1,10 @@
 # readme.txt (For experimental 0.9.0)  
   
+## Content
+* [How to add miners: (.txt file needs to be called miners.txt)](#general-info)
+* [How to add currencies: (.txt file needs to be called currencies.txt)](#general-info)
+* [How to customize theme: (.txt file needs to be called theme.txt)](#general-info)
+  
 ## This text file explains a bit about modding and such. 
 You can't delete this file!  
 If you do modding will stop working  
