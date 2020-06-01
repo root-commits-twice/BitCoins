@@ -12,31 +12,67 @@ ___
 ```
 <0>
 - 	Miner
+		String-Name: minertest
 
-    --- General
-		name: "Antminer S1"
-		speed: 5
-		price: 150
-		power: 10
-		unlock-year: 2013
-    --- Currency:
-		curcost: "USD"
-		earned: "BTC"
-		costpow: "USD"
-    --- Prefixes:
-		pre-pow:
-		pre-spe:
-		pre-pri: "$"
-    --- Suffixes:
-		suf-pow: "w"
-		suf-spe: "/s"
-		suf-pri:
+		Float-Speed: 1
+		Float-Price: 1
+		Float-Power: 1
+		Float-UnlockYear: 2005
+
+		String-CurrencyCost: USD
+		String-CurrencyEarning: BTC
+		String-CurrencyPower: USD
+
+		String-PowerPrefix:
+		String-SpeedPrefix:
+		String-PricePrefix: $
+
+		String-PowerSuffix: w
+		String-SpeedSuffix: /s
+		String-PriceSuffix:
 <1>
 ```
 
 ___
 
- `<0>` and `<1>` are needed to start and end the mod.
+ `<0>` and `<1>` are needed to start and end mods
 
   
 ## How to add currencies: (.txt file needs to be called currencies.txt)  
+___
+```
+<0>
+- 	Currency
+		String-Name: USD
+		String-NameWorth: USDworth
+		Float-StartingValue: 1
+
+		Float-DelayS: 2
+		Float-EventDelayS: 300
+
+		Float-MaxChange: 0
+		Float-MaxChangeEvent: 0
+
+		Float-MinChange: 0
+		Float-MinChangeEvent: 0
+<1>
+```
+___
+
+## How to customize theme: (.txt file needs to be called theme.txt)  
+___
+```
+<0>
+- 	Theme
+		Dark-Red: 85
+		Dark-Green: 55
+		Dark-Blue: 134
+		Light-Red: 103
+		Light-Green: 70
+		Light-Blue: 156
+		Middle-Red: 0.1
+		Middle-Green: 0.1
+		Middle-Blue: 0.1
+<1>
+```
+___
