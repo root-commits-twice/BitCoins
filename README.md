@@ -1,16 +1,16 @@
 # readme.txt (For experimental 0.9.0)  
   
 ## Content
-* [How to add miners: (.txt file needs to be called miners.txt)](#general-info)
-* [How to add currencies: (.txt file needs to be called currencies.txt)](#general-info)
-* [How to customize theme: (.txt file needs to be called theme.txt)](#general-info)
+* [Adding Miners](#Adding-Miners)
+* [Adding Currencies](#Adding-Currencies)
+* [Adding Themes](#Adding-Themes)
   
 ## This text file explains a bit about modding and such. 
 You can't delete this file!  
 If you do modding will stop working  
   
   
-## How to add miners: (.txt file needs to be called miners.txt)  
+## Adding Miners
   
   
 ___
@@ -43,7 +43,7 @@ ___
  `<0>` and `<1>` are needed to start and end mods
 
   
-## How to add currencies: (.txt file needs to be called currencies.txt)  
+## Adding Currencies
 ___
 ```
 <0>
@@ -64,7 +64,7 @@ ___
 ```
 ___
 
-## How to customize theme: (.txt file needs to be called theme.txt)  
+## Adding Themes  
 ___
 ```
 <0>
