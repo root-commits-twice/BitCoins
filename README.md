@@ -60,6 +60,7 @@ ___
 ___
 
  ! `<0>` and `<1>` are needed to start, and end mods  
+   
  To add more copy from `- 	Miner` to the end and paste  
 
   
@@ -84,8 +85,9 @@ ___
 ```
 ___
 
- ! `<0>` and `<1>` are needed to start, and end mods
- To add more copy from `- 	Currency` to the end and paste
+ ! `<0>` and `<1>` are needed to start, and end mods  
+   
+ To add more copy from `- 	Currency` to the end and paste  
  
  
 ## Adding Themes  
@@ -109,4 +111,5 @@ ___
 ___
 
  ! `<0>` and `<1>` are needed to start, and end mods  
+   
  To add multiple themes copy-paste the file and rename it  
