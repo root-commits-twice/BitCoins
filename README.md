@@ -72,9 +72,11 @@ ___
 		Dark-Red: 85
 		Dark-Green: 55
 		Dark-Blue: 134
+		
 		Light-Red: 103
 		Light-Green: 70
 		Light-Blue: 156
+		
 		Middle-Red: 0.1
 		Middle-Green: 0.1
 		Middle-Blue: 0.1
