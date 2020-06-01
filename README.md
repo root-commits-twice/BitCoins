@@ -1,4 +1,6 @@
 # readme.txt (For experimental 0.9.0)  
+
+This readme isn't completed in any way. It will change up until release of v0.9.0
   
 ## Content
 * [Adding Miners](#Adding-Miners)
