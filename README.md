@@ -35,12 +35,32 @@ ___
 		String-PowerSuffix: w
 		String-SpeedSuffix: /s
 		String-PriceSuffix:
+- 	Miner
+		String-Name: minertest2
+
+		Float-Speed: 1
+		Float-Price: 1
+		Float-Power: 1
+		Float-UnlockYear: 2005
+
+		String-CurrencyCost: USD
+		String-CurrencyEarning: BTC
+		String-CurrencyPower: USD
+
+		String-PowerPrefix:
+		String-SpeedPrefix:
+		String-PricePrefix: $
+
+		String-PowerSuffix: w
+		String-SpeedSuffix: /s
+		String-PriceSuffix:
 <1>
 ```
 
 ___
 
- `<0>` and `<1>` are needed to start and end mods
+ !: `<0>` and `<1>` are needed to start, and end mods
+ To add more copy from `- 	Miner` to the end and paste
 
   
 ## Adding Currencies
@@ -64,6 +84,10 @@ ___
 ```
 ___
 
+ !: `<0>` and `<1>` are needed to start, and end mods
+ To add more copy from `- 	Currency` to the end and paste
+ 
+ 
 ## Adding Themes  
 ___
 ```
@@ -83,3 +107,6 @@ ___
 <1>
 ```
 ___
+
+ !: `<0>` and `<1>` are needed to start, and end mods
+ To add multiple themes copy-paste the file and rename it
