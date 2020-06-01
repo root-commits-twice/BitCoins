@@ -108,6 +108,10 @@ ___
 		Middle-Red: 0.1
 		Middle-Green: 0.1
 		Middle-Blue: 0.1
+		
+		Text-Red: 50
+		Text-Green: 50
+		Text-Blue: 50
 <1>
 ```
 ___
