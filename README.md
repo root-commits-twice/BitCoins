@@ -100,18 +100,18 @@ ___
 		Dark-Red: 85
 		Dark-Green: 55
 		Dark-Blue: 134
-		
+
 		Light-Red: 103
 		Light-Green: 70
 		Light-Blue: 156
-		
-		Middle-Red: 0.1
-		Middle-Green: 0.1
-		Middle-Blue: 0.1
-		
-		Text-Red: 50
-		Text-Green: 50
-		Text-Blue: 50
+
+		Middle-Red: 113
+		Middle-Green: 75
+		Middle-Blue: 176
+
+		Text-Red: 255
+		Text-Green: 255
+		Text-Blue: 255
 <1>
 ```
 ___
